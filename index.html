@@ -1,0 +1,3183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow, max-image-preview:large" />
+    <title>AISensy Evolve '25 - Scale Your Business with AI</title>
+
+    <!-- Compiled Tailwind CSS -->
+    <link href="./dist/output.css" rel="stylesheet" />
+
+    <!-- Google Fonts - Fallback -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="bg-bg-light text-brand-black font-body antialiased">
+    <!-- Navigation -->
+    <nav
+      class="fixed top-0 left-0 right-0 z-50 bg-brand-black backdrop-blur-sm border-b border-primary-yellow/20"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-20 lg:h-20">
+          <!-- Logo -->
+          <div class="flex items-center">
+            <a href="#" class="flex items-center space-x-2 text-white">
+              <img
+                src="images/Sprout Media Official Logo-05.png"
+                alt=""
+                class="h-10"
+              />
+              <span class="ml-6">x</span>
+              <img src="images/skill-logo.png" alt="" class="h-16" />
+            </a>
+          </div>
+
+          <!-- Desktop Menu -->
+          <div class="hidden lg:flex items-center space-x-8">
+            <a href="#agenda" class="nav-link font-body">Agenda</a>
+            <a href="#attend" class="nav-link font-body">Why Choose Us</a>
+            <a href="#workshops" class="nav-link font-body">Skills</a>
+            <a href="#faq" class="nav-link font-body">FAQ's</a>
+            <a href="#tickets" class="btn-primary font-body">Buy Tickets</a>
+          </div>
+
+          <!-- Mobile Menu Button -->
+          <label
+            class="lg:hidden relative z-50 cursor-pointer"
+            for="mobile-menu"
+          >
+            <input class="peer hidden" type="checkbox" id="mobile-menu" />
+
+            <!-- Hamburger Icon -->
+            <div class="flex flex-col space-y-1.5 peer-checked:hidden">
+              <span class="block w-6 h-0.5 bg-primary-yellow"></span>
+              <span class="block w-6 h-0.5 bg-primary-yellow"></span>
+              <span class="block w-6 h-0.5 bg-primary-yellow"></span>
+            </div>
+
+            <!-- Close Icon -->
+            <div class="hidden z-[100] relative peer-checked:flex">
+              <svg
+                class="w-6 h-6 text-primary-yellow"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            </div>
+
+            <!-- Mobile Menu Dropdown -->
+            <div
+              class="fixed inset-0 h-[100vh] top-0 bg-brand-black backdrop-blur-md hidden peer-checked:block"
+            >
+              <div
+                class="flex flex-col items-start space-y-1 p-6 bg-brand-black h-full"
+              >
+                <a href="#agenda" class="menu-item font-body" class="flex">
+                  <img
+                    src="images/Sprout Media Official Logo-05.png"
+                    class="h-10"
+                    alt=""
+                  />
+                  <span class="ml-4">x</span>
+                  <img src="images/skill-logo.png" class="h-16" alt="" />
+                </a>
+                <a href="#agenda" class="menu-item font-body">
+                  <svg
+                    class="w-5 h-5 mr-3 text-primary-yellow"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                    />
+                  </svg>
+                  Agenda
+                </a>
+                <a href="#speakers" class="menu-item font-body">
+                  <svg
+                    class="w-5 h-5 mr-3 text-primary-yellow"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+                    />
+                  </svg>
+                  Speakers
+                </a>
+                <a href="#attend" class="menu-item font-body">
+                  <svg
+                    class="w-5 h-5 mr-3 text-primary-yellow"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M13 10V3L4 14h7v7l9-11h-7z"
+                    />
+                  </svg>
+                  Why Attend
+                </a>
+                <a href="#about" class="menu-item font-body">
+                  <svg
+                    class="w-5 h-5 mr-3 text-primary-yellow"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
+                    />
+                  </svg>
+                  About Evolve
+                </a>
+                <a href="#showcase" class="menu-item font-body">
+                  <svg
+                    class="w-5 h-5 mr-3 text-primary-yellow"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+                    />
+                  </svg>
+                  AI Showcase
+                </a>
+                <a href="#faq" class="menu-item font-body">
+                  <svg
+                    class="w-5 h-5 mr-3 text-primary-yellow"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                  FAQ
+                </a>
+
+                <div class="w-full pt-4">
+                  <a
+                    href="#"
+                    class="flex items-center justify-center w-full bg-primary-yellow text-brand-black px-6 py-3.5 rounded-lg font-body font-semibold hover:bg-secondary-yellow transition-all duration-200 shadow-lg"
+                  >
+                    <svg
+                      class="w-5 h-5 mr-2"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M13 10V3L4 14h7v7l9-11h-7z"
+                      />
+                    </svg>
+                    Buy Tickets
+                  </a>
+                </div>
+              </div>
+            </div>
+          </label>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      class="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 py-20 mt-16 lg:mt-32"
+    >
+      <!-- Background Effects -->
+      <div class="absolute inset-0 overflow-hidden">
+        <div
+          class="absolute top-1/4 left-1/4 w-96 h-96 bg-primary-yellow/5 rounded-full blur-3xl"
+        ></div>
+        <div
+          class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-primary-yellow/5 rounded-full blur-3xl"
+        ></div>
+      </div>
+
+      <div class="relative z-10 max-w-5xl mx-auto text-center">
+        <!-- Event Info Badge -->
+        <div
+          class="inline-flex items-center space-x-2 bg-brand-black border border-primary-yellow/30 rounded-md px-4 sm:px-6 py-2 sm:py-2.5 mb-8 flex-wrap justify-center"
+        >
+          <svg
+            class="w-4 h-4 text-primary-yellow flex-shrink-0"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+            />
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+            />
+          </svg>
+          <span class="text-xs sm:text-sm text-white text-center ml-2 font-body"
+            >October 28, 2025 • Hilton Garden Hotel, Manyata Business Park,
+            Bengaluru</span
+          >
+        </div>
+
+        <!-- Main Heading with Typing Effect -->
+        <h1
+          class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-heading font-extrabold mb-6 leading-tight"
+        >
+          <span class="text-brand-black">Scale your Business</span><br />
+          <span class="text-brand-black">with </span>
+          <span id="typing-text" class="text-primary-yellow">AI</span>
+          <span id="cursor" class="text-primary-yellow">|</span>
+        </h1>
+
+        <!-- Event Logo -->
+        <div
+          class="flex flex-wrap items-center justify-center gap-2 sm:gap-3 mb-6"
+        >
+          <img
+            alt="EVOLVE AI Edition"
+            fetchpriority="high"
+            width="384"
+            height="96"
+            decoding="async"
+            data-nimg="1"
+            class="w-80 sm:w-96 object-contain"
+            style="color: transparent"
+            src="images/speaker.png"
+          />
+        </div>
+
+        <div
+          class="text-xs text-grey-dark uppercase tracking-wider mb-8 font-body"
+        >
+          In Collaboration with
+          <span class="font-semibold text-brand-black">Meta</span> • AI Edition
+        </div>
+
+        <!-- Description -->
+        <p
+          class="text-base sm:text-lg md:text-xl font-body text-brand-black mb-10 max-w-3xl mx-auto leading-relaxed px-4"
+        >
+          India's largest AI event bringing together 1,500+ founders, growth
+          leaders, and AI innovators to master practical AI implementation
+          strategies
+        </p>
+
+        <!-- Countdown Timer -->
+        <div class="countdown-wrapper">
+          <div class="countdown-label font-body text-brand-black">
+            Registration Closing in:
+          </div>
+          <div class="countdown-container">
+            <!-- Days -->
+            <div class="countdown-segment">
+              <div class="time-box">
+                <div id="days" class="time-display">00</div>
+              </div>
+              <span class="time-label font-body">Days</span>
+            </div>
+
+            <span class="countdown-separator">:</span>
+
+            <!-- Hours -->
+            <div class="countdown-segment">
+              <div class="time-box">
+                <div id="hours" class="time-display">00</div>
+              </div>
+              <span class="time-label font-body">Hours</span>
+            </div>
+
+            <span class="countdown-separator">:</span>
+
+            <!-- Minutes -->
+            <div class="countdown-segment">
+              <div class="time-box">
+                <div id="minutes" class="time-display">00</div>
+              </div>
+              <span class="time-label font-body">Minutes</span>
+            </div>
+
+            <span class="countdown-separator">:</span>
+
+            <!-- Seconds -->
+            <div class="countdown-segment">
+              <div class="time-box">
+                <div id="seconds" class="time-display">00</div>
+              </div>
+              <span class="time-label font-body">Seconds</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- CTA Button -->
+        <div
+          class="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4"
+        >
+          <a
+            href="#"
+            class="group relative inline-flex items-center justify-center bg-primary-yellow text-brand-black px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-body font-bold text-base sm:text-lg hover:bg-secondary-yellow transition-all duration-200 shadow-2xl shadow-primary-yellow/30 hover:shadow-primary-yellow/50 hover:scale-105 w-full sm:w-auto"
+          >
+            <svg
+              class="w-5 h-5 mr-2 group-hover:animate-pulse"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M13 10V3L4 14h7v7l9-11h-7z"
+              />
+            </svg>
+            Get Tickets
+            <svg
+              class="w-5 h-5 ml-2"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M14 5l7 7m0 0l-7 7m7-7H3"
+              />
+            </svg>
+          </a>
+        </div>
+
+        <!-- Seats Left Indicator -->
+        <!-- <p class="mt-4 text-sm text-grey-dark font-body">
+          <span class="text-primary-yellow font-semibold">3/1500</span> seats
+          left
+        </p> -->
+      </div>
+    </section>
+
+    <!-- Why Attend Section -->
+    <section id="attend" class="relative py-16 sm:py-20 lg:py-24 bg-brand-dark">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Section Header -->
+        <div class="text-center mb-12 lg:mb-16">
+          <h2
+            class="text-3xl sm:text-4xl lg:text-5xl font-heading font-extrabold text-white mb-4"
+          >
+            Why Attend <span class="text-primary-yellow">EVOLVE'25</span>
+          </h2>
+
+          <p
+            class="text-base sm:text-lg lg:text-xl font-body text-grey-medium max-w-3xl mx-auto"
+          >
+            Experience the future of AI innovation and WhatsApp Business
+            automation
+          </p>
+        </div>
+
+        <!-- Features Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <!-- Feature Card 1 -->
+          <div class="feature-card group">
+            <div class="flex flex-col items-center text-center h-full">
+              <!-- Icon -->
+              <div
+                class="w-16 h-16 mb-6 rounded-full bg-primary-yellow/10 flex items-center justify-center group-hover:bg-primary-yellow/20 transition-all duration-300"
+              >
+                <svg
+                  class="w-8 h-8 text-primary-yellow"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M13 10V3L4 14h7v7l9-11h-7z"
+                  />
+                </svg>
+              </div>
+
+              <!-- Title -->
+              <h3 class="text-xl font-body font-bold text-white mb-3">
+                Create Ads in Minutes with AI
+              </h3>
+
+              <!-- Description -->
+              <p class="text-sm font-body text-grey-medium mb-6 flex-grow">
+                Turn ideas into scroll-stopping videos & images that convert.
+              </p>
+
+              <!-- Outcome Badge -->
+              <div class="outcome-badge flex-col gap-2">
+                <div class="flex gap-1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-circle-check-big w-4 h-4 text-primary flex-shrink-0"
+                  >
+                    <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                    <path d="m9 11 3 3L22 4"></path>
+                  </svg>
+                  <span class="text-xs font-body font-semibold">OUTCOME</span>
+                </div>
+
+                <p class="text-sm font-body font-bold text-white">
+                  5x faster creative production
+                </p>
+              </div>
+              <!-- <div class="mt-2 text-center">
+                            <p class="text-base font-body font-bold text-white">5x faster creative production</p>
+                        </div> -->
+            </div>
+          </div>
+
+          <!-- Feature Card 2 -->
+          <div class="feature-card group">
+            <div class="flex flex-col items-center text-center h-full">
+              <!-- Icon -->
+              <div
+                class="w-16 h-16 mb-6 rounded-full bg-primary-yellow/10 flex items-center justify-center group-hover:bg-primary-yellow/20 transition-all duration-300"
+              >
+                <svg
+                  class="w-8 h-8 text-primary-yellow"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
+                  />
+                </svg>
+              </div>
+
+              <!-- Title -->
+              <h3 class="text-xl font-body font-bold text-white mb-3">
+                Automate Customer Conversations
+              </h3>
+
+              <!-- Description -->
+              <p class="text-sm font-body text-grey-medium mb-6 flex-grow">
+                AI voice & WhatsApp agents that qualify and sell for you.
+              </p>
+
+              <!-- Outcome Badge -->
+
+              <div class="outcome-badge flex-col gap-2">
+                <div class="flex gap-1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-circle-check-big w-4 h-4 text-primary flex-shrink-0"
+                  >
+                    <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                    <path d="m9 11 3 3L22 4"></path>
+                  </svg>
+                  <span class="text-xs font-body font-semibold">OUTCOME</span>
+                </div>
+
+                <p class="text-sm font-body font-bold text-white">
+                  Zero missed leads
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Feature Card 3 -->
+          <div class="feature-card group">
+            <div class="flex flex-col items-center text-center h-full">
+              <!-- Icon -->
+              <div
+                class="w-16 h-16 mb-6 rounded-full bg-primary-yellow/10 flex items-center justify-center group-hover:bg-primary-yellow/20 transition-all duration-300"
+              >
+                <svg
+                  class="w-8 h-8 text-primary-yellow"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+                  />
+                </svg>
+              </div>
+
+              <!-- Title -->
+              <h3 class="text-xl font-body font-bold text-white mb-3">
+                Build Your AI Growth Engine
+              </h3>
+
+              <!-- Description -->
+              <p class="text-sm font-body text-grey-medium mb-6 flex-grow">
+                Learn how to launch automation flows that close deals.
+              </p>
+
+              <!-- Outcome Badge -->
+
+              <div class="outcome-badge flex-col gap-2">
+                <div class="flex gap-1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-circle-check-big w-4 h-4 text-primary flex-shrink-0"
+                  >
+                    <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                    <path d="m9 11 3 3L22 4"></path>
+                  </svg>
+                  <span class="text-xs font-body font-semibold">OUTCOME</span>
+                </div>
+
+                <p class="text-sm font-body font-bold text-white">
+                  2x higher conversions
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Feature Card 4 -->
+          <div class="feature-card group">
+            <div class="flex flex-col items-center text-center h-full">
+              <!-- Icon -->
+              <div
+                class="w-16 h-16 mb-6 rounded-full bg-primary-yellow/10 flex items-center justify-center group-hover:bg-primary-yellow/20 transition-all duration-300"
+              >
+                <svg
+                  class="w-8 h-8 text-primary-yellow"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M14 5l7 7m0 0l-7 7m7-7H3"
+                  />
+                </svg>
+              </div>
+
+              <!-- Title -->
+              <h3 class="text-xl font-body font-bold text-white mb-3">
+                Hands-on AI Workshops
+              </h3>
+
+              <!-- Description -->
+              <p class="text-sm font-body text-grey-medium mb-6 flex-grow">
+                Build and deploy real AI solutions in live sessions.
+              </p>
+
+              <!-- Outcome Badge -->
+
+              <div class="outcome-badge flex-col gap-2">
+                <div class="flex gap-1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-circle-check-big w-4 h-4 text-primary flex-shrink-0"
+                  >
+                    <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                    <path d="m9 11 3 3L22 4"></path>
+                  </svg>
+                  <span class="text-xs font-body font-semibold">OUTCOME</span>
+                </div>
+
+                <p class="text-sm font-body font-bold text-white">
+                  Leave with a working automation
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Master Section -->
+    <section
+      id="workshops"
+      class="relative py-16 sm:py-20 lg:py-24 bg-brand-black"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Section Header -->
+        <div class="text-center mb-12 lg:mb-16">
+          <h2
+            class="text-3xl sm:text-4xl lg:text-5xl font-heading font-extrabold text-white mb-4"
+          >
+            <span class="text-white">What Skills You Will </span
+            ><span class="text-primary-yellow">Master</span>
+          </h2>
+
+          <p
+            class="text-base sm:text-lg lg:text-xl font-body text-grey-medium max-w-3xl mx-auto"
+          >
+            Master practical AI skills through interactive workshops and
+            specialized tracks
+          </p>
+        </div>
+
+        <!-- Skills Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+          <!-- Skill Card 1 - Marketing AI -->
+          <div class="skill-card group">
+            <div class="flex flex-col h-full">
+              <!-- Icon -->
+              <div
+                class="w-16 h-16 mb-6 rounded-full bg-primary-yellow/10 flex items-center justify-center group-hover:bg-primary-yellow/20 transition-all duration-300"
+              >
+                <svg
+                  class="w-8 h-8 text-primary-yellow"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"
+                  />
+                </svg>
+              </div>
+
+              <!-- Title -->
+              <h3 class="text-xl font-body font-bold text-white mb-3">
+                Marketing AI
+              </h3>
+
+              <!-- Description -->
+              <p class="text-sm font-body text-grey-medium mb-6">
+                Transform your marketing with AI automation
+              </p>
+
+              <!-- You'll Master Section -->
+              <div class="flex-grow">
+                <p
+                  class="text-xs font-body font-semibold text-primary-yellow mb-3"
+                >
+                  You'll master:
+                </p>
+                <ul class="space-y-2">
+                  <li class="flex items-start">
+                    <svg
+                      class="w-4 h-4 text-primary-yellow mr-2 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span class="text-sm font-body text-grey-medium"
+                      >Build AI-powered ad campaigns</span
+                    >
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="w-4 h-4 text-primary-yellow mr-2 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span class="text-sm font-body text-grey-medium"
+                      >Create personalized customer journeys</span
+                    >
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="w-4 h-4 text-primary-yellow mr-2 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span class="text-sm font-body text-grey-medium"
+                      >Implement predictive analytics</span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Card 2 - Hands-on Coding -->
+          <div class="skill-card group">
+            <div class="flex flex-col h-full">
+              <!-- Icon -->
+              <div
+                class="w-16 h-16 mb-6 rounded-full bg-primary-yellow/10 flex items-center justify-center group-hover:bg-primary-yellow/20 transition-all duration-300"
+              >
+                <svg
+                  class="w-8 h-8 text-primary-yellow"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+                  />
+                </svg>
+              </div>
+
+              <!-- Title -->
+              <h3 class="text-xl font-body font-bold text-white mb-3">
+                Hands-on Coding Workshops
+              </h3>
+
+              <!-- Description -->
+              <p class="text-sm font-body text-grey-medium mb-6">
+                Build real AI applications through live coding sessions
+              </p>
+
+              <!-- You'll Master Section -->
+              <div class="flex-grow">
+                <p
+                  class="text-xs font-body font-semibold text-primary-yellow mb-3"
+                >
+                  You'll master:
+                </p>
+                <ul class="space-y-2">
+                  <li class="flex items-start">
+                    <svg
+                      class="w-4 h-4 text-primary-yellow mr-2 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span class="text-sm font-body text-grey-medium"
+                      >Live code AI features</span
+                    >
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="w-4 h-4 text-primary-yellow mr-2 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span class="text-sm font-body text-grey-medium"
+                      >Debug ML models together</span
+                    >
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="w-4 h-4 text-primary-yellow mr-2 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span class="text-sm font-body text-grey-medium"
+                      >Build end-to-end AI apps</span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Card 3 - Voice/Agentic AI -->
+          <div class="skill-card group">
+            <div class="flex flex-col h-full">
+              <!-- Icon -->
+              <div
+                class="w-16 h-16 mb-6 rounded-full bg-primary-yellow/10 flex items-center justify-center group-hover:bg-primary-yellow/20 transition-all duration-300"
+              >
+                <svg
+                  class="w-8 h-8 text-primary-yellow"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"
+                  />
+                </svg>
+              </div>
+
+              <!-- Title -->
+              <h3 class="text-xl font-body font-bold text-white mb-3">
+                Voice/Agentic AI
+              </h3>
+
+              <!-- Description -->
+              <p class="text-sm font-body text-grey-medium mb-6">
+                Create conversational AI that converts
+              </p>
+
+              <!-- You'll Master Section -->
+              <div class="flex-grow">
+                <p
+                  class="text-xs font-body font-semibold text-primary-yellow mb-3"
+                >
+                  You'll master:
+                </p>
+                <ul class="space-y-2">
+                  <li class="flex items-start">
+                    <svg
+                      class="w-4 h-4 text-primary-yellow mr-2 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span class="text-sm font-body text-grey-medium"
+                      >Build multilingual voice bots</span
+                    >
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="w-4 h-4 text-primary-yellow mr-2 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span class="text-sm font-body text-grey-medium"
+                      >Design conversation flows</span
+                    >
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="w-4 h-4 text-primary-yellow mr-2 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span class="text-sm font-body text-grey-medium"
+                      >Integrate with WhatsApp/SMS</span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Card 4 - Prompt Engineering -->
+          <div class="skill-card group">
+            <div class="flex flex-col h-full">
+              <!-- Icon -->
+              <div
+                class="w-16 h-16 mb-6 rounded-full bg-primary-yellow/10 flex items-center justify-center group-hover:bg-primary-yellow/20 transition-all duration-300"
+              >
+                <svg
+                  class="w-8 h-8 text-primary-yellow"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+                  />
+                </svg>
+              </div>
+
+              <!-- Title -->
+              <h3 class="text-xl font-body font-bold text-white mb-3">
+                Prompt Engineering & Building Agents
+              </h3>
+
+              <!-- Description -->
+              <p class="text-sm font-body text-grey-medium mb-6">
+                Master the art of AI prompt design and autonomous agent creation
+              </p>
+
+              <!-- You'll Master Section -->
+              <div class="flex-grow">
+                <p
+                  class="text-xs font-body font-semibold text-primary-yellow mb-3"
+                >
+                  You'll master:
+                </p>
+                <ul class="space-y-2">
+                  <li class="flex items-start">
+                    <svg
+                      class="w-4 h-4 text-primary-yellow mr-2 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span class="text-sm font-body text-grey-medium"
+                      >Design effective AI prompts</span
+                    >
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="w-4 h-4 text-primary-yellow mr-2 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span class="text-sm font-body text-grey-medium"
+                      >Build autonomous AI agents</span
+                    >
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="w-4 h-4 text-primary-yellow mr-2 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span class="text-sm font-body text-grey-medium"
+                      >Chain multiple AI models together</span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Card 5 - Prompt Engineering -->
+          <div class="skill-card group">
+            <div class="flex flex-col h-full">
+              <!-- Icon -->
+              <div
+                class="w-16 h-16 mb-6 rounded-full bg-primary-yellow/10 flex items-center justify-center group-hover:bg-primary-yellow/20 transition-all duration-300"
+              >
+                <svg
+                  class="w-8 h-8 text-primary-yellow"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+                  />
+                </svg>
+              </div>
+
+              <!-- Title -->
+              <h3 class="text-xl font-body font-bold text-white mb-3">
+                Prompt Engineering & Building Agents
+              </h3>
+
+              <!-- Description -->
+              <p class="text-sm font-body text-grey-medium mb-6">
+                Master the art of AI prompt design and autonomous agent creation
+              </p>
+
+              <!-- You'll Master Section -->
+              <div class="flex-grow">
+                <p
+                  class="text-xs font-body font-semibold text-primary-yellow mb-3"
+                >
+                  You'll master:
+                </p>
+                <ul class="space-y-2">
+                  <li class="flex items-start">
+                    <svg
+                      class="w-4 h-4 text-primary-yellow mr-2 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span class="text-sm font-body text-grey-medium"
+                      >Design effective AI prompts</span
+                    >
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="w-4 h-4 text-primary-yellow mr-2 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span class="text-sm font-body text-grey-medium"
+                      >Build autonomous AI agents</span
+                    >
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="w-4 h-4 text-primary-yellow mr-2 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span class="text-sm font-body text-grey-medium"
+                      >Chain multiple AI models together</span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Card 6 - Prompt Engineering -->
+          <div class="skill-card group">
+            <div class="flex flex-col h-full">
+              <!-- Icon -->
+              <div
+                class="w-16 h-16 mb-6 rounded-full bg-primary-yellow/10 flex items-center justify-center group-hover:bg-primary-yellow/20 transition-all duration-300"
+              >
+                <svg
+                  class="w-8 h-8 text-primary-yellow"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+                  />
+                </svg>
+              </div>
+
+              <!-- Title -->
+              <h3 class="text-xl font-body font-bold text-white mb-3">
+                Prompt Engineering & Building Agents
+              </h3>
+
+              <!-- Description -->
+              <p class="text-sm font-body text-grey-medium mb-6">
+                Master the art of AI prompt design and autonomous agent creation
+              </p>
+
+              <!-- You'll Master Section -->
+              <div class="flex-grow">
+                <p
+                  class="text-xs font-body font-semibold text-primary-yellow mb-3"
+                >
+                  You'll master:
+                </p>
+                <ul class="space-y-2">
+                  <li class="flex items-start">
+                    <svg
+                      class="w-4 h-4 text-primary-yellow mr-2 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span class="text-sm font-body text-grey-medium"
+                      >Design effective AI prompts</span
+                    >
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="w-4 h-4 text-primary-yellow mr-2 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span class="text-sm font-body text-grey-medium"
+                      >Build autonomous AI agents</span
+                    >
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="w-4 h-4 text-primary-yellow mr-2 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span class="text-sm font-body text-grey-medium"
+                      >Chain multiple AI models together</span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Card 7 - Prompt Engineering -->
+          <div class="skill-card group">
+            <div class="flex flex-col h-full">
+              <!-- Icon -->
+              <div
+                class="w-16 h-16 mb-6 rounded-full bg-primary-yellow/10 flex items-center justify-center group-hover:bg-primary-yellow/20 transition-all duration-300"
+              >
+                <svg
+                  class="w-8 h-8 text-primary-yellow"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+                  />
+                </svg>
+              </div>
+
+              <!-- Title -->
+              <h3 class="text-xl font-body font-bold text-white mb-3">
+                Prompt Engineering & Building Agents
+              </h3>
+
+              <!-- Description -->
+              <p class="text-sm font-body text-grey-medium mb-6">
+                Master the art of AI prompt design and autonomous agent creation
+              </p>
+
+              <!-- You'll Master Section -->
+              <div class="flex-grow">
+                <p
+                  class="text-xs font-body font-semibold text-primary-yellow mb-3"
+                >
+                  You'll master:
+                </p>
+                <ul class="space-y-2">
+                  <li class="flex items-start">
+                    <svg
+                      class="w-4 h-4 text-primary-yellow mr-2 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span class="text-sm font-body text-grey-medium"
+                      >Design effective AI prompts</span
+                    >
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="w-4 h-4 text-primary-yellow mr-2 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span class="text-sm font-body text-grey-medium"
+                      >Build autonomous AI agents</span
+                    >
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="w-4 h-4 text-primary-yellow mr-2 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span class="text-sm font-body text-grey-medium"
+                      >Chain multiple AI models together</span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Card 8 - Prompt Engineering -->
+          <div class="skill-card group">
+            <div class="flex flex-col h-full">
+              <!-- Icon -->
+              <div
+                class="w-16 h-16 mb-6 rounded-full bg-primary-yellow/10 flex items-center justify-center group-hover:bg-primary-yellow/20 transition-all duration-300"
+              >
+                <svg
+                  class="w-8 h-8 text-primary-yellow"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+                  />
+                </svg>
+              </div>
+
+              <!-- Title -->
+              <h3 class="text-xl font-body font-bold text-white mb-3">
+                Prompt Engineering & Building Agents
+              </h3>
+
+              <!-- Description -->
+              <p class="text-sm font-body text-grey-medium mb-6">
+                Master the art of AI prompt design and autonomous agent creation
+              </p>
+
+              <!-- You'll Master Section -->
+              <div class="flex-grow">
+                <p
+                  class="text-xs font-body font-semibold text-primary-yellow mb-3"
+                >
+                  You'll master:
+                </p>
+                <ul class="space-y-2">
+                  <li class="flex items-start">
+                    <svg
+                      class="w-4 h-4 text-primary-yellow mr-2 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span class="text-sm font-body text-grey-medium"
+                      >Design effective AI prompts</span
+                    >
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="w-4 h-4 text-primary-yellow mr-2 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span class="text-sm font-body text-grey-medium"
+                      >Build autonomous AI agents</span
+                    >
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="w-4 h-4 text-primary-yellow mr-2 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span class="text-sm font-body text-grey-medium"
+                      >Chain multiple AI models together</span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CTA Button -->
+        <div class="text-center">
+          <a
+            href="#"
+            class="inline-flex items-center justify-center bg-primary-yellow text-brand-black px-8 py-4 rounded-lg font-body font-bold text-lg hover:bg-secondary-yellow transition-all duration-200 shadow-2xl shadow-primary-yellow/30 hover:shadow-primary-yellow/50 hover:scale-105"
+          >
+            <svg
+              class="w-5 h-5 mr-2"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M13 10V3L4 14h7v7l9-11h-7z"
+              />
+            </svg>
+            Get Tickets
+            <svg
+              class="w-5 h-5 ml-2"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M14 5l7 7m0 0l-7 7m7-7H3"
+              />
+            </svg>
+          </a>
+          <!-- <p class="mt-3 text-sm font-body text-grey-medium">
+            <span class="text-primary-yellow font-semibold">3/1500</span> seats
+            left
+          </p> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Event Agenda Section -->
+    <section
+      id="agenda"
+      class="relative py-16 sm:py-20 lg:py-24 bg-brand-black"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Section Header -->
+        <div class="text-center mb-12 lg:mb-16">
+          <div
+            class="inline-flex items-center space-x-2 bg-primary-yellow/10 border border-primary-yellow/30 rounded-full px-4 py-2 mb-6"
+          >
+            <svg
+              class="w-5 h-5 text-primary-yellow"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+              />
+            </svg>
+            <span class="text-sm font-body font-semibold text-primary-yellow"
+              >Event Schedule</span
+            >
+          </div>
+
+          <h2
+            class="text-3xl sm:text-4xl lg:text-5xl font-heading font-extrabold text-white mb-4"
+          >
+            Event Agenda
+          </h2>
+
+          <p
+            class="text-base sm:text-lg lg:text-xl font-body text-grey-medium max-w-3xl mx-auto"
+          >
+            Three parallel tracks packed with insights, workshops, and
+            networking opportunities
+          </p>
+        </div>
+
+        <!-- Agenda Timeline -->
+        <div class="space-y-6">
+          <!-- Welcome Note Card -->
+          <div class="agenda-card group">
+            <div class="flex flex-col lg:flex-row gap-6">
+              <!-- Event Details -->
+              <div class="flex-1">
+                <div
+                  class="inline-block bg-primary-yellow/20 text-primary-yellow text-xs font-body font-semibold px-3 py-1 rounded-full mb-3"
+                >
+                  Keynote
+                </div>
+
+                <h4
+                  class="text-xl sm:text-2xl font-body font-bold text-white mb-4"
+                >
+                  Welcome Note
+                </h4>
+
+                <ul class="space-y-2 mb-6">
+                  <li class="flex items-start">
+                    <svg
+                      class="w-5 h-5 text-primary-yellow mr-3 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span
+                      class="text-sm sm:text-base font-body text-grey-medium"
+                      >Welcome to EVOLVE'25</span
+                    >
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="w-5 h-5 text-primary-yellow mr-3 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span
+                      class="text-sm sm:text-base font-body text-grey-medium"
+                      >Overview of the day's agenda</span
+                    >
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="w-5 h-5 text-primary-yellow mr-3 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span
+                      class="text-sm sm:text-base font-body text-grey-medium"
+                      >Networking opportunities</span
+                    >
+                  </li>
+                </ul>
+
+                <a
+                  href="#"
+                  class="inline-flex items-center bg-primary-yellow text-brand-black px-5 py-2.5 rounded-lg font-body font-semibold hover:bg-secondary-yellow transition-all duration-200 group/btn"
+                >
+                  <svg
+                    class="w-5 h-5 mr-2"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+                    />
+                  </svg>
+                  Attend Event
+                  <svg
+                    class="w-4 h-4 ml-2 group-hover/btn:translate-x-1 transition-transform"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 5l7 7-7 7"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Keynote Session 1 -->
+          <div class="agenda-card group">
+            <div class="flex flex-col lg:flex-row gap-6">
+              <!-- Speaker Info -->
+              <div class="flex-shrink-0">
+                <div class="flex items-start gap-4">
+                  <div
+                    class="w-16 h-16 sm:w-20 sm:h-20 rounded-full overflow-hidden border-2 border-primary-yellow/30 group-hover:border-primary-yellow transition-all duration-300"
+                  >
+                    <img
+                      src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200&h=200&fit=crop"
+                      alt="Chand Ajmera"
+                      class="w-full h-full object-cover"
+                    />
+                  </div>
+                  <div class="flex-1">
+                    <h3
+                      class="text-lg sm:text-xl font-body font-bold text-white mb-1"
+                    >
+                      Chand Ajmera
+                    </h3>
+                    <p class="text-sm font-body text-grey-medium mb-2">Meta</p>
+                    <div
+                      class="inline-flex items-center bg-grey-dark/20 rounded px-3 py-1"
+                    >
+                      <span class="text-xs font-body font-semibold text-white"
+                        >Meta</span
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="flex items-center mt-4 text-grey-medium">
+                  <svg
+                    class="w-4 h-4 mr-2"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                  <span class="text-sm font-body">2:45 PM - 3:15 PM</span>
+                </div>
+              </div>
+
+              <!-- Event Details -->
+              <div class="flex-1">
+                <div
+                  class="inline-block bg-primary-yellow/20 text-primary-yellow text-xs font-body font-semibold px-3 py-1 rounded-full mb-3"
+                >
+                  Keynote
+                </div>
+
+                <h4
+                  class="text-xl sm:text-2xl font-body font-bold text-white mb-4"
+                >
+                  Empowering Businesses with WhatsApp's Partnership Models
+                </h4>
+
+                <ul class="space-y-2 mb-6">
+                  <li class="flex items-start">
+                    <svg
+                      class="w-5 h-5 text-primary-yellow mr-3 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span
+                      class="text-sm sm:text-base font-body text-grey-medium"
+                      >Partnership opportunities with WhatsApp</span
+                    >
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="w-5 h-5 text-primary-yellow mr-3 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span
+                      class="text-sm sm:text-base font-body text-grey-medium"
+                      >Leverage Meta's partner ecosystem</span
+                    >
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="w-5 h-5 text-primary-yellow mr-3 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span
+                      class="text-sm sm:text-base font-body text-grey-medium"
+                      >Monetization strategies for partners</span
+                    >
+                  </li>
+                </ul>
+
+                <a
+                  href="#"
+                  class="inline-flex items-center bg-primary-yellow text-brand-black px-5 py-2.5 rounded-lg font-body font-semibold hover:bg-secondary-yellow transition-all duration-200 group/btn"
+                >
+                  <svg
+                    class="w-5 h-5 mr-2"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+                    />
+                  </svg>
+                  Attend Event
+                  <svg
+                    class="w-4 h-4 ml-2 group-hover/btn:translate-x-1 transition-transform"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 5l7 7-7 7"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Keynote Session 2 -->
+          <div class="agenda-card group">
+            <div class="flex flex-col lg:flex-row gap-6">
+              <!-- Speaker Info -->
+              <div class="flex-shrink-0">
+                <div class="flex items-start gap-4">
+                  <div
+                    class="w-16 h-16 sm:w-20 sm:h-20 rounded-full overflow-hidden border-2 border-primary-yellow/30 group-hover:border-primary-yellow transition-all duration-300"
+                  >
+                    <img
+                      src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop"
+                      alt="Mohit Dua"
+                      class="w-full h-full object-cover"
+                    />
+                  </div>
+                  <div class="flex-1">
+                    <h3
+                      class="text-lg sm:text-xl font-body font-bold text-white mb-1"
+                    >
+                      Mohit Dua
+                    </h3>
+                    <p class="text-sm font-body text-grey-medium mb-2">
+                      Co-founder, AiSensy
+                    </p>
+                    <div
+                      class="inline-flex items-center bg-grey-dark/20 rounded px-3 py-1"
+                    >
+                      <span class="text-xs font-body font-semibold text-white"
+                        >AiSensy</span
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="flex items-center mt-4 text-grey-medium">
+                  <svg
+                    class="w-4 h-4 mr-2"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                  <span class="text-sm font-body">3:15 PM - 3:35 PM</span>
+                </div>
+              </div>
+
+              <!-- Event Details -->
+              <div class="flex-1">
+                <div
+                  class="inline-block bg-primary-yellow/20 text-primary-yellow text-xs font-body font-semibold px-3 py-1 rounded-full mb-3"
+                >
+                  Keynote
+                </div>
+
+                <h4
+                  class="text-xl sm:text-2xl font-body font-bold text-white mb-4"
+                >
+                  AiSensy Partner Case Studies & Unique Growth Insights
+                </h4>
+
+                <ul class="space-y-2 mb-6">
+                  <li class="flex items-start">
+                    <svg
+                      class="w-5 h-5 text-primary-yellow mr-3 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span
+                      class="text-sm sm:text-base font-body text-grey-medium"
+                      >Real-world partner success stories</span
+                    >
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="w-5 h-5 text-primary-yellow mr-3 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span
+                      class="text-sm sm:text-base font-body text-grey-medium"
+                      >How partners scaled with AiSensy</span
+                    >
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="w-5 h-5 text-primary-yellow mr-3 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span
+                      class="text-sm sm:text-base font-body text-grey-medium"
+                      >Unique Partnership models for growth</span
+                    >
+                  </li>
+                </ul>
+
+                <a
+                  href="#"
+                  class="inline-flex items-center bg-primary-yellow text-brand-black px-5 py-2.5 rounded-lg font-body font-semibold hover:bg-secondary-yellow transition-all duration-200 group/btn"
+                >
+                  <svg
+                    class="w-5 h-5 mr-2"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+                    />
+                  </svg>
+                  Attend Event
+                  <svg
+                    class="w-4 h-4 ml-2 group-hover/btn:translate-x-1 transition-transform"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 5l7 7-7 7"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Break Session -->
+          <div class="agenda-break">
+            <div class="flex items-center gap-4">
+              <div class="flex-shrink-0">
+                <div
+                  class="w-12 h-12 rounded-full bg-primary-yellow/10 border border-primary-yellow/30 flex items-center justify-center"
+                >
+                  <svg
+                    class="w-6 h-6 text-primary-yellow"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div class="flex-1">
+                <div
+                  class="inline-block bg-primary-yellow/20 text-primary-yellow text-xs font-body font-semibold px-3 py-1 rounded-full mb-2"
+                >
+                  Break
+                </div>
+                <h4 class="text-xl font-body font-bold text-white mb-1">
+                  High Tea Break
+                </h4>
+                <div class="flex items-center text-grey-medium">
+                  <svg
+                    class="w-4 h-4 mr-2"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                  <span class="text-sm font-body">4:30 PM - 4:45 PM</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Panel Discussion -->
+          <div class="agenda-card group">
+            <div class="flex flex-col lg:flex-row gap-6">
+              <!-- Speakers Info -->
+              <div class="flex-shrink-0">
+                <div class="flex items-start gap-2 mb-4">
+                  <div
+                    class="w-14 h-14 sm:w-16 sm:h-16 rounded-full overflow-hidden border-2 border-primary-yellow/30 group-hover:border-primary-yellow transition-all duration-300 -ml-0"
+                  >
+                    <img
+                      src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop"
+                      alt="Nishant"
+                      class="w-full h-full object-cover"
+                    />
+                  </div>
+                  <div
+                    class="w-14 h-14 sm:w-16 sm:h-16 rounded-full overflow-hidden border-2 border-primary-yellow/30 group-hover:border-primary-yellow transition-all duration-300 -ml-4"
+                  >
+                    <img
+                      src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop"
+                      alt="Murali Krishna"
+                      class="w-full h-full object-cover"
+                    />
+                  </div>
+                  <div
+                    class="w-14 h-14 sm:w-16 sm:h-16 rounded-full overflow-hidden border-2 border-primary-yellow/30 group-hover:border-primary-yellow transition-all duration-300 -ml-4"
+                  >
+                    <img
+                      src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop"
+                      alt="Preeti Adhikari"
+                      class="w-full h-full object-cover"
+                    />
+                  </div>
+                </div>
+
+                <div class="space-y-2 mb-4">
+                  <div>
+                    <h3
+                      class="text-base sm:text-lg font-body font-bold text-white"
+                    >
+                      Nishant
+                    </h3>
+                    <p class="text-xs sm:text-sm font-body text-grey-medium">
+                      Founder & CEO, Cheerio
+                    </p>
+                  </div>
+                  <div>
+                    <h3
+                      class="text-base sm:text-lg font-body font-bold text-white"
+                    >
+                      Murali Krishna Manchikanti
+                    </h3>
+                    <p class="text-xs sm:text-sm font-body text-grey-medium">
+                      Founder & CEO, ValueText
+                    </p>
+                  </div>
+                  <div>
+                    <h3
+                      class="text-base sm:text-lg font-body font-bold text-white"
+                    >
+                      Preeti Adhikari
+                    </h3>
+                    <p class="text-xs sm:text-sm font-body text-grey-medium">
+                      AGM Partner Success, AiSensy
+                    </p>
+                  </div>
+                </div>
+
+                <div class="flex flex-wrap gap-2 mb-4">
+                  <div
+                    class="inline-flex items-center bg-grey-dark/20 rounded px-3 py-1"
+                  >
+                    <span class="text-xs font-body font-semibold text-white"
+                      >Cheerio</span
+                    >
+                  </div>
+                  <div
+                    class="inline-flex items-center bg-grey-dark/20 rounded px-3 py-1"
+                  >
+                    <span class="text-xs font-body font-semibold text-white"
+                      >ValueText</span
+                    >
+                  </div>
+                </div>
+
+                <div class="flex items-center text-grey-medium">
+                  <svg
+                    class="w-4 h-4 mr-2"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                  <span class="text-sm font-body">4:45 PM - 5:05 PM</span>
+                </div>
+              </div>
+
+              <!-- Event Details -->
+              <div class="flex-1">
+                <div
+                  class="inline-block bg-primary-yellow/20 text-primary-yellow text-xs font-body font-semibold px-3 py-1 rounded-full mb-3"
+                >
+                  Keynote
+                </div>
+
+                <h4
+                  class="text-xl sm:text-2xl font-body font-bold text-white mb-4"
+                >
+                  WhatsApp Growth Unlocked : Partner Success Stories
+                </h4>
+
+                <ul class="space-y-2 mb-6">
+                  <li class="flex items-start">
+                    <svg
+                      class="w-5 h-5 text-primary-yellow mr-3 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span
+                      class="text-sm sm:text-base font-body text-grey-medium"
+                      >Scaling business operations with AI & WhatsApp</span
+                    >
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="w-5 h-5 text-primary-yellow mr-3 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span
+                      class="text-sm sm:text-base font-body text-grey-medium"
+                      >Client acquisition strategies</span
+                    >
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="w-5 h-5 text-primary-yellow mr-3 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span
+                      class="text-sm sm:text-base font-body text-grey-medium"
+                      >Building sustainable WhatsApp based business</span
+                    >
+                  </li>
+                </ul>
+
+                <a
+                  href="#"
+                  class="inline-flex items-center bg-primary-yellow text-brand-black px-5 py-2.5 rounded-lg font-body font-semibold hover:bg-secondary-yellow transition-all duration-200 group/btn"
+                >
+                  <svg
+                    class="w-5 h-5 mr-2"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+                    />
+                  </svg>
+                  Attend Event
+                  <svg
+                    class="w-4 h-4 ml-2 group-hover/btn:translate-x-1 transition-transform"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 5l7 7-7 7"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- closing Session -->
+          <div class="agenda-card group">
+            <div class="flex flex-col lg:flex-row gap-6">
+              <!-- Event Details -->
+              <div class="flex-1">
+                <div
+                  class="inline-block bg-primary-yellow/20 text-primary-yellow text-xs font-body font-semibold px-3 py-1 rounded-full mb-3"
+                >
+                  Keynote
+                </div>
+
+                <h4
+                  class="text-xl sm:text-2xl font-body font-bold text-white mb-4"
+                >
+                  Closing Note
+                </h4>
+
+                <ul class="space-y-2 mb-6">
+                  <li class="flex items-start">
+                    <svg
+                      class="w-5 h-5 text-primary-yellow mr-3 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span
+                      class="text-sm sm:text-base font-body text-grey-medium"
+                      >Welcome to EVOLVE'25</span
+                    >
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="w-5 h-5 text-primary-yellow mr-3 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span
+                      class="text-sm sm:text-base font-body text-grey-medium"
+                      >Overview of the day's agenda</span
+                    >
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="w-5 h-5 text-primary-yellow mr-3 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span
+                      class="text-sm sm:text-base font-body text-grey-medium"
+                      >Networking opportunities</span
+                    >
+                  </li>
+                </ul>
+
+                <a
+                  href="#"
+                  class="inline-flex items-center bg-primary-yellow text-brand-black px-5 py-2.5 rounded-lg font-body font-semibold hover:bg-secondary-yellow transition-all duration-200 group/btn"
+                >
+                  <svg
+                    class="w-5 h-5 mr-2"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+                    />
+                  </svg>
+                  Attend Event
+                  <svg
+                    class="w-4 h-4 ml-2 group-hover/btn:translate-x-1 transition-transform"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 5l7 7-7 7"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tickets Pricing Section -->
+    <section
+      id="tickets"
+      class="relative py-16 sm:py-20 lg:py-24 bg-brand-black"
+    >
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Section Header -->
+        <div class="text-center mb-12 lg:mb-16">
+          <h2
+            class="text-3xl sm:text-4xl lg:text-5xl font-heading font-extrabold text-white mb-4"
+          >
+            Get Your <span class="text-primary-yellow">Tickets</span>
+          </h2>
+
+          <p
+            class="text-base sm:text-lg lg:text-xl font-body text-grey-medium max-w-3xl mx-auto"
+          >
+            Choose the perfect pass for your team and secure your spot at
+            India's largest AI event
+          </p>
+        </div>
+
+        <!-- Pricing Cards Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 mb-12">
+          <!-- Individual Pass Card -->
+          <div class="pricing-card group">
+            <div class="flex flex-col h-full">
+              <!-- Card Header -->
+              <div class="mb-6">
+                <h3 class="text-2xl font-body font-bold text-white mb-2">
+                  Individual Pass
+                </h3>
+                <p class="text-sm font-body text-grey-medium">
+                  Ideal for: Solo founders and professionals
+                </p>
+              </div>
+
+              <!-- Includes Section -->
+              <div class="flex-grow mb-6">
+                <p class="text-sm font-body font-semibold text-white mb-4">
+                  Includes:
+                </p>
+                <ul class="space-y-3">
+                  <li class="flex items-start">
+                    <svg
+                      class="w-5 h-5 text-primary-yellow mr-3 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span class="text-sm font-body text-grey-medium"
+                      >Full access to all sessions, tracks & workshops</span
+                    >
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="w-5 h-5 text-primary-yellow mr-3 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span class="text-sm font-body text-grey-medium"
+                      >Networking with top AI founders & innovators</span
+                    >
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="w-5 h-5 text-primary-yellow mr-3 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span class="text-sm font-body text-grey-medium"
+                      >Access to the AI Startup Showcase</span
+                    >
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="w-5 h-5 text-primary-yellow mr-3 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span class="text-sm font-body text-grey-medium"
+                      >Lunch, high tea & recordings of all sessions</span
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Price -->
+              <div class="mb-6">
+                <div class="flex items-baseline gap-2">
+                  <span
+                    class="text-4xl font-heading font-extrabold text-primary-yellow"
+                    >₹6,750</span
+                  >
+                  <span class="text-lg font-body text-grey-medium line-through"
+                    >₹9,000</span
+                  >
+                </div>
+              </div>
+
+              <!-- CTA Button -->
+              <a href="#" class="pricing-btn group/btn">
+                <span class="font-body font-semibold">Get Individual Pass</span>
+                <svg
+                  class="w-5 h-5 ml-2 group-hover/btn:translate-x-1 transition-transform"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5l7 7-7 7"
+                  />
+                </svg>
+              </a>
+              <!-- <p class="text-xs font-body text-center text-grey-medium mt-3">
+                <span class="text-primary-yellow font-semibold">3/1500</span>
+                seats left
+              </p> -->
+            </div>
+          </div>
+
+          <!-- Team Pass Card -->
+          <div class="pricing-card group">
+            <div class="flex flex-col h-full">
+              <!-- Card Header -->
+              <div class="mb-6">
+                <h3 class="text-2xl font-body font-bold text-white mb-2">
+                  Team Pass (2+ tickets)
+                </h3>
+                <p class="text-sm font-body text-grey-medium">
+                  Ideal for: Teams attending together
+                </p>
+              </div>
+
+              <!-- Includes Section -->
+              <div class="flex-grow mb-6">
+                <p class="text-sm font-body font-semibold text-white mb-4">
+                  Includes:
+                </p>
+                <ul class="space-y-3">
+                  <li class="flex items-start">
+                    <svg
+                      class="w-5 h-5 text-primary-yellow mr-3 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span class="text-sm font-body text-grey-medium"
+                      >Full access to all sessions, tracks & workshops</span
+                    >
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="w-5 h-5 text-primary-yellow mr-3 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span class="text-sm font-body text-grey-medium"
+                      >Network with top AI founders & innovators</span
+                    >
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="w-5 h-5 text-primary-yellow mr-3 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span class="text-sm font-body text-grey-medium"
+                      >Access to the AI Startup Showcase</span
+                    >
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="w-5 h-5 text-primary-yellow mr-3 flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span class="text-sm font-body text-grey-medium"
+                      >Lunch, high tea & recordings of all sessions</span
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Price -->
+              <div class="mb-6">
+                <div class="flex items-baseline gap-2">
+                  <span
+                    class="text-4xl font-heading font-extrabold text-primary-yellow"
+                    >₹6,075</span
+                  >
+                  <span class="text-base font-body text-grey-medium"
+                    >per person</span
+                  >
+                </div>
+                <div class="mt-1">
+                  <span class="text-sm font-body text-grey-medium line-through"
+                    >₹6,750</span
+                  >
+                </div>
+              </div>
+
+              <!-- CTA Button -->
+              <a href="#" class="pricing-btn group/btn">
+                <span class="font-body font-semibold">Get Team Pass</span>
+                <svg
+                  class="w-5 h-5 ml-2 group-hover/btn:translate-x-1 transition-transform"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5l7 7-7 7"
+                  />
+                </svg>
+              </a>
+              <!-- <p class="text-xs font-body text-center text-grey-medium mt-3">
+                <span class="text-primary-yellow font-semibold">3/1500</span>
+                seats left
+              </p> -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Support Section -->
+        <div class="text-center">
+          <p class="text-sm font-body text-grey-medium mb-4">
+            Have questions about tickets or need help with bulk purchases?
+          </p>
+          <a
+            href="https://wa.me/1234567890"
+            target="_blank"
+            class="inline-flex items-center justify-center bg-transparent border-2 border-primary-yellow text-primary-yellow px-6 py-3 rounded-lg font-body font-semibold hover:bg-primary-yellow hover:text-brand-black transition-all duration-300"
+          >
+            <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+              />
+            </svg>
+            Contact Us on WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="relative py-16 sm:py-20 lg:py-24 bg-brand-black">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Section Header -->
+        <div class="text-center mb-12 lg:mb-16">
+          <h2
+            class="text-3xl sm:text-4xl lg:text-5xl font-heading font-extrabold text-white mb-4"
+          >
+            Frequently Asked <span class="text-primary-yellow">Questions</span>
+          </h2>
+
+          <p class="text-base sm:text-lg lg:text-xl font-body text-grey-medium">
+            Everything you need to know about EVOLVE'25
+          </p>
+        </div>
+
+        <!-- FAQ Accordion -->
+        <div class="space-y-4">
+          <!-- FAQ Item 1 -->
+          <div class="faq-item">
+            <button class="faq-question" onclick="toggleFAQ(this)">
+              <span class="faq-question-text"
+                >What is Evolve'25: AI Edition?</span
+              >
+              <svg
+                class="faq-icon"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p class="font-body text-grey-medium">
+                  Evolve'25 is India's biggest AI-focused business and marketing
+                  event, hosted by AiSensy in collaboration with Meta. It brings
+                  together 1500+ leaders, innovators, and decision-makers to
+                  explore how AI is reshaping business growth.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ Item 2 -->
+          <div class="faq-item">
+            <button class="faq-question" onclick="toggleFAQ(this)">
+              <span class="faq-question-text"
+                >When and where is Evolve'25 happening?</span
+              >
+              <svg
+                class="faq-icon"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p class="font-body text-grey-medium">
+                  Evolve'25 is scheduled for
+                  <strong class="text-white">October 28, 2025</strong>, at the
+                  <strong class="text-white"
+                    >Hilton Garden Hotel, Manyata Business Park,
+                    Bengaluru</strong
+                  >. The event will run from morning through evening with
+                  multiple tracks, workshops, and networking sessions.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ Item 3 -->
+          <div class="faq-item">
+            <button class="faq-question" onclick="toggleFAQ(this)">
+              <span class="faq-question-text">Can I see it online?</span>
+              <svg
+                class="faq-icon"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p class="font-body text-grey-medium">
+                  Evolve'25 is an in-person event. However, all ticket holders
+                  will receive recordings of the sessions after the event,
+                  allowing you to revisit key insights and share them with your
+                  team.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ Item 4 -->
+          <div class="faq-item">
+            <button class="faq-question" onclick="toggleFAQ(this)">
+              <span class="faq-question-text"
+                >What topics will be covered at Evolve'25?</span
+              >
+              <svg
+                class="faq-icon"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p class="font-body text-grey-medium">
+                  The event covers practical AI implementation including
+                  Marketing AI, Voice/Agentic AI, Hands-on Coding Workshops,
+                  Prompt Engineering, AI-powered automation, WhatsApp Business
+                  strategies, and real-world case studies from successful AI
+                  implementations.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ Item 5 -->
+          <div class="faq-item">
+            <button class="faq-question" onclick="toggleFAQ(this)">
+              <span class="faq-question-text"
+                >Who should attend Evolve'25?</span
+              >
+              <svg
+                class="faq-icon"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p class="font-body text-grey-medium">
+                  Evolve'25 is perfect for founders, CEOs, marketing leaders,
+                  growth professionals, product managers, developers, and anyone
+                  interested in implementing AI solutions to scale their
+                  business. Whether you're an AI beginner or expert, you'll find
+                  value in the workshops and networking opportunities.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ Item 6 -->
+          <div class="faq-item">
+            <button class="faq-question" onclick="toggleFAQ(this)">
+              <span class="faq-question-text"
+                >What's included in the ticket price?</span
+              >
+              <svg
+                class="faq-icon"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p class="font-body text-grey-medium mb-3">
+                  Your ticket includes:
+                </p>
+                <ul class="space-y-2 font-body text-grey-medium">
+                  <li class="flex items-start">
+                    <svg
+                      class="w-4 h-4 text-primary-yellow mr-2 flex-shrink-0 mt-1"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    Full access to all sessions, tracks, and workshops
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="w-4 h-4 text-primary-yellow mr-2 flex-shrink-0 mt-1"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    Networking with top AI founders and innovators
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="w-4 h-4 text-primary-yellow mr-2 flex-shrink-0 mt-1"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    Access to the AI Startup Showcase
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="w-4 h-4 text-primary-yellow mr-2 flex-shrink-0 mt-1"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    Lunch, high tea, and refreshments
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="w-4 h-4 text-primary-yellow mr-2 flex-shrink-0 mt-1"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    Recordings of all sessions
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ Item 7 -->
+          <div class="faq-item">
+            <button class="faq-question" onclick="toggleFAQ(this)">
+              <span class="faq-question-text">Is there a refund policy?</span>
+              <svg
+                class="faq-icon"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p class="font-body text-grey-medium">
+                  Yes, we offer full refunds for cancellations made up to 7 days
+                  before the event. Cancellations made within 7 days of the
+                  event are eligible for a 50% refund. Please contact our
+                  support team for any refund requests.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Partner Section -->
+    <section
+      id="partner"
+      class="relative py-16 sm:py-20 lg:py-24 mb-10 md:mb-0 bg-brand-black"
+    >
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Section Header -->
+        <div class="text-center mb-12">
+          <h2
+            class="text-3xl sm:text-4xl lg:text-5xl font-heading font-extrabold text-white mb-6"
+          >
+            Partner with <span class="text-primary-yellow">EVOLVE'25</span>
+          </h2>
+
+          <p
+            class="text-base sm:text-lg lg:text-xl font-body text-grey-medium max-w-3xl mx-auto mb-12"
+          >
+            Showcase your brand to 1,500+ decision-makers and AI innovators at
+            India's largest AI business event
+          </p>
+
+          <!-- Stats Row -->
+          <div
+            class="flex flex-wrap items-center justify-center gap-6 sm:gap-8 lg:gap-12 mb-12"
+          >
+            <!-- Stat 1 -->
+            <div class="flex items-center gap-3">
+              <svg
+                class="w-6 h-6 sm:w-7 sm:h-7 text-primary-yellow"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+                />
+              </svg>
+              <span
+                class="text-lg sm:text-xl font-body font-semibold text-white"
+                >1,500+ Attendees</span
+              >
+            </div>
+
+            <!-- Stat 2 -->
+            <div class="flex items-center gap-3">
+              <svg
+                class="w-6 h-6 sm:w-7 sm:h-7 text-primary-yellow"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"
+                />
+              </svg>
+              <span
+                class="text-lg sm:text-xl font-body font-semibold text-white"
+                >100+ Industry Leaders</span
+              >
+            </div>
+
+            <!-- Stat 3 -->
+            <div class="flex items-center gap-3">
+              <svg
+                class="w-6 h-6 sm:w-7 sm:h-7 text-primary-yellow"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M13 10V3L4 14h7v7l9-11h-7z"
+                />
+              </svg>
+              <span
+                class="text-lg sm:text-xl font-body font-semibold text-white"
+                >50+ AI Companies</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- CTA Buttons -->
+        <div
+          class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8"
+        >
+          <!-- WhatsApp Button -->
+          <a
+            href="https://wa.me/919870345120"
+            target="_blank"
+            class="inline-flex items-center justify-center bg-primary-yellow text-brand-black px-8 py-4 rounded-lg font-body font-bold text-lg hover:bg-secondary-yellow transition-all duration-200 shadow-2xl shadow-primary-yellow/30 hover:shadow-primary-yellow/50 hover:scale-105 w-full sm:w-auto"
+          >
+            <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+              />
+            </svg>
+            WhatsApp Us
+          </a>
+
+          <!-- Email Button -->
+          <a
+            href="mailto:akash.k@aisensy.com"
+            class="inline-flex items-center justify-center bg-transparent border-2 border-primary-yellow text-primary-yellow px-8 py-4 rounded-lg font-body font-bold text-lg hover:bg-primary-yellow hover:text-brand-black transition-all duration-200 w-full sm:w-auto"
+          >
+            <svg
+              class="w-6 h-6 mr-2"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+              />
+            </svg>
+            Email Us
+          </a>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="text-center">
+          <p class="text-sm font-body text-grey-medium">
+            <a
+              href="mailto:akash.k@aisensy.com"
+              class="text-grey-medium hover:text-primary-yellow transition-colors"
+              >akash.k@aisensy.com</a
+            >
+            <span class="mx-2">•</span>
+            <a
+              href="tel:+919870345120"
+              class="text-grey-medium hover:text-primary-yellow transition-colors"
+              >+91 9870345120</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sticky Mobile Footer - Only visible on mobile/tablet -->
+    <div id="sticky-mobile-footer" class="sticky-mobile-footer">
+      <!-- Top Section: Timer & Price -->
+      <div class="sticky-footer-top">
+        <!-- Event Countdown -->
+        <div class="flex items-center gap-2">
+          <div
+            class="w-2 h-2 bg-primary-yellow rounded-full animate-pulse"
+          ></div>
+          <div class="flex flex-col">
+            <span class="text-xs font-body text-grey-medium"
+              >EVENT STARTS IN</span
+            >
+            <div
+              class="flex items-center gap-1 text-white font-body font-semibold"
+            >
+              <span id="mobile-days">0d</span>
+              <span id="mobile-hours">0h</span>
+              <span id="mobile-minutes">0m</span>
+              <span id="mobile-seconds">0s</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Price -->
+        <div class="flex flex-col items-end">
+          <span class="text-2xl font-heading font-extrabold text-primary-yellow"
+            >₹6,750</span
+          >
+          <span class="text-xs font-body text-grey-medium line-through"
+            >₹9,000</span
+          >
+        </div>
+      </div>
+
+      <!-- Bottom Section: CTA Buttons -->
+      <div class="sticky-footer-bottom">
+        <!-- Coupon Code -->
+        <!-- <button class="coupon-code-btn" onclick="copyCouponCode()">
+          <span class="font-body font-semibold">EV2027</span>
+          <span class="text-xs font-body">20% Off Coupon</span>
+          <svg
+            class="w-4 h-4"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"
+            />
+          </svg>
+        </button> -->
+
+        <!-- Get Tickets Button -->
+        <a href="#tickets" class="get-tickets-btn">
+          <span class="font-body font-bold">Get Tickets</span>
+          <svg
+            class="w-5 h-5"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M14 5l7 7m0 0l-7 7m7-7H3"
+            />
+          </svg>
+        </a>
+
+        <!-- WhatsApp Button -->
+        <a
+          href="https://wa.me/8178329552"
+          target="_blank"
+          class="whatsapp-btn"
+          aria-label="Contact on WhatsApp"
+        >
+          <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+            <path
+              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+            />
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- Toast Notification for Coupon -->
+    <div id="coupon-toast" class="coupon-toast">
+      <svg
+        class="w-5 h-5 text-primary-yellow"
+        fill="currentColor"
+        viewBox="0 0 20 20"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+          clip-rule="evenodd"
+        />
+      </svg>
+      <span class="font-body font-semibold">Coupon code copied!</span>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
