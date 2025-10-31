@@ -220,95 +220,19 @@
     </nav>
 
     <!-- Hero Section -->
+
+    <!-- new hero section  -->
     <section
-      class="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 py-20 mt-16 lg:mt-32"
+      class="relative bg-brand-dark flex flex-col items-center justify-center px-0 sm:px-0 lg:px-0 mt-6 lg:mt-20 lg:pt-2"
     >
-      <!-- Background Effects -->
-      <div class="absolute inset-0 overflow-hidden">
-        <div
-          class="absolute top-1/4 left-1/4 w-96 h-96 bg-primary-yellow/5 rounded-full blur-3xl"
-        ></div>
-        <div
-          class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-primary-yellow/5 rounded-full blur-3xl"
-        ></div>
-      </div>
+      <div
+        class="h-[50vh] sm:h-[90vh] w-full bg-contain sm:bg-cover bg-no-repeat bg-center bg-[url('/images/banner-img-mobile.webp')] md:bg-[url('/images/banner-img.webp')]"
+      ></div>
 
-      <div class="relative z-10 max-w-5xl mx-auto text-center">
-        <!-- Event Info Badge -->
-        <div
-          class="inline-flex items-center space-x-2 bg-brand-black border border-primary-yellow/30 rounded-md px-4 sm:px-6 py-2 sm:py-2.5 mb-8 flex-wrap justify-center"
-        >
-          <svg
-            class="w-4 h-4 text-primary-yellow flex-shrink-0"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-            />
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-            />
-          </svg>
-          <span class="text-xs sm:text-sm text-white text-center ml-2 font-body"
-            >October 28, 2025 • Hilton Garden Hotel, Manyata Business Park,
-            Bengaluru</span
-          >
-        </div>
-
-        <!-- Main Heading with Typing Effect -->
-        <h1
-          class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-heading font-extrabold mb-6 leading-tight"
-        >
-          <span class="text-brand-black">Scale your Business</span><br />
-          <span class="text-brand-black">with </span>
-          <span id="typing-text" class="text-primary-yellow">AI</span>
-          <span id="cursor" class="text-primary-yellow">|</span>
-        </h1>
-
-        <!-- Event Logo -->
-        <div
-          class="flex flex-wrap items-center justify-center gap-2 sm:gap-3 mb-6"
-        >
-          <img
-            alt="EVOLVE AI Edition"
-            fetchpriority="high"
-            width="384"
-            height="96"
-            decoding="async"
-            data-nimg="1"
-            class="w-80 sm:w-96 object-contain"
-            style="color: transparent"
-            src="images/speaker.png"
-          />
-        </div>
-
-        <div
-          class="text-xs text-grey-dark uppercase tracking-wider mb-8 font-body"
-        >
-          In Collaboration with
-          <span class="font-semibold text-brand-black">Meta</span> • AI Edition
-        </div>
-
-        <!-- Description -->
-        <p
-          class="text-base sm:text-lg md:text-xl font-body text-brand-black mb-10 max-w-3xl mx-auto leading-relaxed px-4"
-        >
-          India's largest AI event bringing together 1,500+ founders, growth
-          leaders, and AI innovators to master practical AI implementation
-          strategies
-        </p>
-
+      <div class="relative z-10 max-w-5xl pt-0 sm:pt-24 mx-auto text-center">
         <!-- Countdown Timer -->
         <div class="countdown-wrapper">
-          <div class="countdown-label font-body text-brand-black">
+          <div class="countdown-label font-body text-white">
             Registration Closing in:
           </div>
           <div class="countdown-container">
@@ -389,12 +313,6 @@
             </svg>
           </a>
         </div>
-
-        <!-- Seats Left Indicator -->
-        <!-- <p class="mt-4 text-sm text-grey-dark font-body">
-          <span class="text-primary-yellow font-semibold">3/1500</span> seats
-          left
-        </p> -->
       </div>
     </section>
 
